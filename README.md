@@ -32,7 +32,7 @@ docker build -t gs-4-worklife-balance .
 
 2. **Rodar o container:**
 
-docker run -d --name gs4-api -p 8081:8080 gs-4-worklife-balance
+docker run -d --name gs4-api -p 8081:8081 gs-4-worklife-balance
 
 3. **Acessar no navegador:**
 [http://localhost:8081/swagger-ui.html](http://localhost:8081/swagger-ui.html)
